@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "dependencies": {
+    "klexhub-docs-engine": "git+https://github.com/klexhub/klexhub-docs-engine.git"
+  },
+  "scripts": {
+    "bootstrap": "node_modules/klexhub-docs-engine/bin/commands.sh bootstrap",
+    "ghactionsbootstrap": "node_modules/klexhub-docs-engine/bin/commands.sh ghactionsbootstrap",
+    "build": "node_modules/klexhub-docs-engine/bin/commands.sh build",
+    "develop": "node_modules/klexhub-docs-engine/bin/commands.sh develop",
+    "savechanges": "node_modules/klexhub-docs-engine/bin/commands.sh savechanges"
+  }
+}
