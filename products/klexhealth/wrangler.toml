@@ -1,7 +1,17 @@
-name = "docs-engine-example"
+name = "developers-klexhub-com-klexhealth"
 type = "webpack"
-account_id = "1e1395dd88464c726799aac6c1be4a71" # adam.workers.dev
+account_id = "070791994fb01ff03966a2811756bd29" # adam.workers.dev
 workers_dev = true
+zone_id = "09b262505a75ee4ae95ddcb858a56adf"
+route = "https://developers.klexhub.com/klexhealth*"
+
+
+[env.production]
+workers_dev = false
+account_id = "070791994fb01ff03966a2811756bd29" # cloudflare-docs.workers.dev
+zone_id = "09b262505a75ee4ae95ddcb858a56adf"
+route = "https://developers.klexhub.com/klexhealth*"
+
 
 [site]
 bucket = ".docs/public/" # Add pathPrefix here if necessary

@@ -1,13 +1,13 @@
 {
   "private": true,
   "dependencies": {
-    "cloudflare-docs-engine": "git+https://github.com/cloudflare/cloudflare-docs-engine.git"
+    "klexhub-docs-engine": "git+https://github.com/klexhub/klexhub-docs-engine.git"
   },
   "scripts": {
-    "bootstrap": "node_modules/cloudflare-docs-engine/bin/commands.sh bootstrap",
-    "ghactionsbootstrap": "node_modules/cloudflare-docs-engine/bin/commands.sh ghactionsbootstrap",
-    "build": "node_modules/cloudflare-docs-engine/bin/commands.sh build",
-    "develop": "node_modules/cloudflare-docs-engine/bin/commands.sh develop",
-    "savechanges": "node_modules/cloudflare-docs-engine/bin/commands.sh savechanges"
+    "bootstrap": "node_modules/klexhub-docs-engine/bin/commands.sh bootstrap",
+    "ghactionsbootstrap": "node_modules/klexhub-docs-engine/bin/commands.sh ghactionsbootstrap",
+    "build": "node_modules/klexhub-docs-engine/bin/commands.sh build",
+    "develop": "node_modules/klexhub-docs-engine/bin/commands.sh develop",
+    "savechanges": "node_modules/klexhub-docs-engine/bin/commands.sh savechanges"
   }
 }

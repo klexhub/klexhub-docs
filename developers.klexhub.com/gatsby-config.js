@@ -11,9 +11,6 @@ const getProduct = name => {
 const products = ["klexhealth", "support-pp"]
 
 const productIcons = {}
-products.forEach(name => {
-  productIcons[name] = require(getProduct(name)).pathD
-})
 
 if (docsConfig.productLogoPathD && docsConfig.productIconKey) {
   return Error(
@@ -22,7 +19,7 @@ if (docsConfig.productLogoPathD && docsConfig.productIconKey) {
 }
 
 if (docsConfig.productIconKey) {
-  docsConfig.productLogoPathD = productIcons[docsConfig.productIconKey]
+  docsConfig.productLogoPathD = ""
 }
 
 const siteMetadata = docsConfig.siteMetadata

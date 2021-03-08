@@ -7,7 +7,7 @@ workers_dev = true
 workers_dev = false
 account_id = "070791994fb01ff03966a2811756bd29" # cloudflare-docs.workers.dev
 zone_id = "09b262505a75ee4ae95ddcb858a56adf"
-route = "https://developers.cloudflare.com/*"
+route = "https://developers.klexhub.com/*"
 
 [site]
 bucket = "./public"
