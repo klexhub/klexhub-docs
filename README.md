@@ -9,6 +9,6 @@ Feel free to contribute.
 
 | Product                 | `pathPrefix`         | Test                                                                                  | Prod                                                           |
 | :---------------------- | :------------------- | :------------------------------------------------------------------------------------ | :------------------------------------------------------------- |
-| KlexHealth              | klexhealth           | [Test](https://developers-klexhub-com-klexhealth.johannes.workers.dev/klexhealth)     | [Prod](https://developers.klexhub.com/klexhealth)              |
-| Support++               | support-pp           | [Test](https://developers-klexhub-com-supportpp.johannes.workers.dev/support-pp)      | [Prod](https://developers.klexhub.com/support-pp)              |
+| KlexHealth              | klexhealth           | [Test](https://developers-klexhub-com-klexhealth.klexhub.workers.dev/klexhealth)     | [Prod](https://developers.klexhub.com/klexhealth)              |
+| Support++               | support-pp           | [Test](https://developers-klexhub-com-supportpp.klexhub.workers.dev/support-pp)      | [Prod](https://developers.klexhub.com/support-pp)              |
 
