@@ -26,9 +26,6 @@ Advanced Sinusbot Support Script
 
 Sinusbot platform: <https://forum.sinusbot.com/resources/support.229/>
 
-If you want to download the script, go to the [Releases Tab][] and
-download the latest version.
-
 ## Features
 
 - Module store - easily expand the script's functionality
