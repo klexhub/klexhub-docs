@@ -29,6 +29,7 @@ module.exports = {
   ],
   search: {
     indexName: "developers-klexhub",
+    appId: "X3RSCL21SF",
     apiKey: "85469e71cbfaf54d2dfacb951ec48578",
     algoliaOptions: {
       facetFilters: '["project:klexhealth"]',
