@@ -28,10 +28,10 @@ module.exports = {
     },
   ],
   search: {
-    indexName: "",
-    apiKey: "",
+    indexName: "developers-klexhub",
+    apiKey: "85469e71cbfaf54d2dfacb951ec48578",
     algoliaOptions: {
-      facetFilters: "",
+      facetFilters: '["project:klexhealth"]',
     },
   },
   siteMetadata: {
