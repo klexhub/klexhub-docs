@@ -1,6 +1,6 @@
 # URL Validation
 
-KlexHealth takes safety very seriously. Therefore, for each URL that you can use with KlexHealth, especially with the OAUTh procedure (rederict urls and web origins) the following criteria must be considered.
+KlexHealth takes safety very seriously. Therefore, for each URL, especially with the OAuth procedure (rederict urls and web origins) the following criteria must be considered:
 - only the schema: `https` is supported
 - the url must not contain a fragment `e.g: (https://url.com#invalid)`
 - double `/` characters in path not allowed
@@ -9,7 +9,7 @@ KlexHealth takes safety very seriously. Therefore, for each URL that you can use
 
 `https://klexhealth.com/webhook#id=33` - **invalid** > because, you use the fragment `#id`
 
-`http://klexhealth.com` - **invalid** > you use the supported `http` protocol
+`http://klexhealth.com` - **invalid** > you use the unsupported `http` protocol
 
 `https://klexhealth.com/info//data` - **invalid** > double `/` characters in path not allowed
 
