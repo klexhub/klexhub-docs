@@ -1,6 +1,6 @@
 # WhatsApp Module
 
-![header](../static/discord-module-header.png)
+![header](../static/whatsapp-banner.png)
 
 
 ## Einleitung
@@ -18,27 +18,27 @@ an einen vorher verifizierten Nummer.
 <Aside type='warning' header='⚠️ Dieses Module ist ab Version 2.7.0 verfügbar.'>
 </Aside>
 
-![header-d](https://i.gyazo.com/c85601fc28324c18bd5038d69a3d9464.png)
+![header-d](../static/c85601fc28324c18bd5038d69a3d9464.png)
 
 1.  Öffnen Sie unsere [WhatsApp-Console](https://whatsapp-console.support-pp.de/)
 3.  Melden Sie sich mit den Zugangsdaten an. 
 **Hinweis: Die Zugangsdaten erhalten Sie nach freigabe im BETA Programm. Die Zugangsdaten können nur durch Support++ Teammitglieder erstellt werden.**
 
-![header-d](https://i.gyazo.com/781d8a083b652d122fbb26bdb503cb82.png)
+![header-d](../static/781d8a083b652d122fbb26bdb503cb82.png)
 
 7.  Scannen Sie den QR-Code mit einem entsprechenden QRCode-Scanner *(Tipp: moderne Smartphones haben diesen bereits in der normalen Kamera App integriert.)*
 
-![header-d](https://i.gyazo.com/d748133e1c50173961ffe6459a36d204.png)
+![header-d](../static/d748133e1c50173961ffe6459a36d204.png)
 
 9.  Daraufhin öffnet sich WhatsApp mit einer Nachricht: ```!verify xxxxxxxxx```.
 
-![header-d](https://gyazo.com/bf1c262837b5652d94f953539bfbd944.png)
+![header-d](../static/bf1c262837b5652d94f953539bfbd944.png)
 
 11.  Senden Sie diese Nachricht an unseren Bot. Fertig! Sie haben Ihre Nummer nun verifiziert.
 12.  Öffnen Sie erneut die [WhatsApp-Console](https://whatsapp-console.support-pp.de/) und aktualisieren Sie die Webseite.
     Sie sollten nun die Nachricht sehen, dass eine Nummer erfolgreich verknüpft wurde.
     
-![header-d](https://i.gyazo.com/1a12ef21d719281cc18a58aca18523aa.png)
+![header-d](../static/1a12ef21d719281cc18a58aca18523aa.png)
 
 6. Klicken Sie auf den Button ("Create new API Key") um einen neuen Token zu generieren. Fügen Sie diesen in der Sinusbot Konfiguration ein. 
 Mit diesem Schritt ist die Installation abgeschlossen.
