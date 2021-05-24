@@ -8,8 +8,8 @@
 Sie möchten auch über Kunden informiert werden, die auf Ihrem TeamSpeak³
 Server, in Ihrerer Abwesenheit einen der Support Channel betreten hat?
 Oder doch einfach nur als Übersicht? Kein Problem, das WhatsApp module
-ist eine Art Notification Bridge und sendet Benachrichtigungen direkt 
-an einen vorher verifizierten Nummer.
+ist eine Art notification Bridge und sendet Benachrichtigungen direkt 
+an eine vorher verifizierte Nummer.
 
 ## Installation
 
