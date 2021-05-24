@@ -13,7 +13,7 @@ an einen vorher verifizierten Nummer.
 
 ## Installation
 
-<Aside type='warning' header='⚠️ Um dieses Module nutzen zu können, benötigen Sie einen Account für die closed beta. Sie können sich hier anmelden: <a href="https://beta-whatsapp.support-pp.de/">https://beta-whatsapp.support-pp.de/</a>'>
+<Aside type='warning' header='⚠️ Um dieses Module nutzen zu können, benötigen Sie einen Account für die closed beta. Sie können sich hier anmelden: https://beta-whatsapp.support-pp.de'>
 </Aside>
 <Aside type='warning' header='⚠️ Dieses Module ist ab Version 2.7.0 verfügbar.'>
 </Aside>
