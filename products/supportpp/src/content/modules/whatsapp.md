@@ -2,6 +2,11 @@
 
 ![header](../static/whatsapp-banner.png)
 
+<Aside type='info' header='Check out our tutorial'>
+<a href="https://www.youtube.com/watch?v=SHaP9wsIxMs">Tutorial von HilfePlus auf YouTube. Danke</a>
+
+</Aside>
+
 
 ## Einleitung
 
