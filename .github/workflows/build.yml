@@ -83,5 +83,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: sudo apt-get install jq docker
+      - uses: docker-practice/actions-setup-docker@master
+      - run: sudo apt-get install jq
       - run: docker run -it -e APPLICATION_ID=X3RSCL21SF -e API_KEY=${{ secrets.SEARCH_API_KEY }} -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper
