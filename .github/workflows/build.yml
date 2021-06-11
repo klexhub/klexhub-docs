@@ -77,3 +77,12 @@ jobs:
           mkdir .docs
           npm run ghactionsbootstrap
           npm run build
+          
+  update-search-indexes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: |
+          apt-get install jq
+          docker run -it -e APPLICATION_ID=X3RSCL21SF -e API_KEY=$SEARCH_API_KEY -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper
